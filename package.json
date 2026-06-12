@@ -1,0 +1,37 @@
+{
+  "name": "audio-context-ai",
+  "version": "1.0.0",
+  "description": "An AI-powered tool that transcribes audio files and applies intelligent, contextual cleanup to deliver polished, accurate, and structured text.",
+  "homepage": "https://github.com/jose-a-dlc05/audio-context-ai#readme",
+  "bugs": {
+    "url": "https://github.com/jose-a-dlc05/audio-context-ai/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jose-a-dlc05/audio-context-ai.git"
+  },
+  "license": "ISC",
+  "author": "Jose De La Cruz",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts --fix",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "format:check": "prettier --check \"src/**/*.ts\""
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^25.9.3",
+    "eslint": "^10.4.1",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^17.6.0",
+    "prettier": "^3.8.4",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.61.0"
+  }
+}
